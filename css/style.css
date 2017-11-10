@@ -1,100 +1,84 @@
 .crystalimg {
-
-	height: 200px;
-	width: 200px;
+  height: 200px;
+  width: 200px;
   position: relative;
-  top:300px;
+  top: 300px;
   height: 200px;
   width: 200px;
   float: left;
   margin-right: 20px;
 }
 
-#Crystal1{
+#Crystal1 {
   top: 480px;
-  right:250px;
+  right: 250px;
   position: relative;
-
 }
 
-
 body {
-background-color: yellow;
-
+  background-color: yellow;
 }
 
 #title {
-
-	padding: 20px;
-	background-color: grey;
-	color: white;
-	float: left;
-
+  padding: 20px;
+  background-color: grey;
+  color: white;
+  float: left;
 }
 
 #instructions {
-
-	font-family: arial;
-	color: Black;
-	font-weight: bolder;
+  font-family: arial;
+  color: Black;
+  font-weight: bolder;
   background-color: red;
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 650px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 650px;
   top: 100px;
   position: relative;
 }
 
 #currentScore {
-
-	padding: 10px;
-	padding-right: 150px;
-	padding-bottom: 75px;
-	background-color: green;
-	float: left;
-	margin-bottom: 75px;
-	color: white;
-	font-family: arial;
-	font-size: 40px;
+  padding: 10px;
+  padding-right: 150px;
+  padding-bottom: 75px;
+  background-color: green;
+  float: left;
+  margin-bottom: 75px;
+  color: white;
+  font-family: arial;
+  font-size: 40px;
   position: relative;
   top: 60px;
-
-
 }
 
 #score-txt {
-
-color: white;
-font-weight: bold;
-font-family: arial;
-position: relative;
-top: 60px;
-background-color: green;
-float: left;
-
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  position: relative;
+  top: 60px;
+  background-color: green;
+  float: left;
 }
 
-
 #targetNumber {
-
-	color: black;
-	font-size: 45px;
+  color: black;
+  font-size: 45px;
   background-color: purple;
-	float: left;
-	padding-left: 10px;
-	padding-right: 150px;
-	padding-bottom: 100px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 150px;
+  padding-bottom: 100px;
   top: 300px;
   right: 675px;
   position: relative;
   text-align: center;
-
 }
 
 #wins, #losses {
-
-	color: black;
-	font-weight: bold;
-	font-family: arial;
+  color: black;
+  font-weight: bold;
+  font-family: arial;
 }
