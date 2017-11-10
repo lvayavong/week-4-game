@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Game</title>
+<link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<h3 id="title">Crystals Collector!</h3>
+
+<!-- <div id="instr-back"> -->
+  <p id="instructions">You will be given a random number at the start of the game.
+    <br><br>
+    There are four crystals below.
+    By clicking on a crystal you will add a specific amount of points to your total score.
+    <br><br>
+    You win the game by matching your total score to the random number, you lose the game.
+    if your total score goes above he random number.
+    <br><br>
+    The value of each crystal is hidden from you until you click on it.
+    <br><br>
+    Each time when the game starts, the game will change the value of each crystal.</p>
+<!-- </div> -->
+
+<!-- <div id="target-back"> -->
+<!-- <p id="numGuess">Number to Guess:<br><br> <span id="targetNumber"></span></p> -->
+<p id="targetNumber">Target Number</p>
+<!-- </div> -->
+
+<!-- <div id="counter-back"> -->
+  <p id="wins">Wins: <span id="winAmount"></span></p>
+  <p id="losses">Losses: <span id="lossAmount"></span></p>
+<!-- </div> -->
+
+  <img class="crystalimg" id="Crystal1" src="images/blue.png" alt="crystalimg">
+
+  <img class="crystalimg" id="Crystal2" src="images/green.png" alt="crystalimg">
+
+  <img class="crystalimg" id="Crystal3" src="images/red.png" alt="crystalimg">
+
+  <img class="crystalimg" id="Crystal4" src="images/yellow.png" alt="crystalimg">
+
+  <p id="score-txt">Your total score is:</p>
+
+
+
+<div id="score-back">
+  <div id="currentScore"></div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="javascript/game.js"></script>
+</body>
+</html>
