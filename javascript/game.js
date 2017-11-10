@@ -1,7 +1,8 @@
 var winAmount = 0;
 var lossAmount = 0;
 var targetNumber = Math.floor(Math.random() * 121);
-$("#targetNumber").text(targetNumber);
+
+$("#targetNumber").html(targetNumber);
 
 
 
@@ -14,18 +15,20 @@ $("#winAmount").html(winAmount);
 $("#lossAmount").html(lossAmount);
 
 var amount = 0;
-$("#currentScore").text(amount);
+$("#currentScore").html(amount);
 
 function restartGame() {
 
   targetNumber = Math.floor(Math.random() * 121);
-  $("#targetNumber").text(targetNumber);
+
+  $("#targetNumber").html(targetNumber);
   Crystal1 = Math.floor(Math.random() * 12);
   Crystal2 = Math.floor(Math.random() * 12);
   Crystal3 = Math.floor(Math.random() * 12);
   Crystal4 = Math.floor(Math.random() * 12);
-  counter = 0;
-  $("#currentScore").text(amount);
+  amount = 0;
+
+  $("#currentScore").html(amount);
 
 }
 
@@ -33,7 +36,8 @@ function win() {
 
   alert("You win!");
   winAmount++;
-  $("#winAmount").text(winAmount);
+
+  $("#winAmount").html(winAmount);
   restartGame();
 }
 
@@ -41,14 +45,16 @@ function lose() {
 
   alert("You lose!");
   lossAmount++;
-  $("#lossAmount").text(lossAmount);
+
+  $("#lossAmount").html(lossAmount);
   restartGame();
 }
 
-$('#Crystal1').on('click', function() {
+$('#Crystal1').click(function() {
   amount = amount + Crystal1;
 
-  $('#currentScore').text(amount);
+
+  $('#currentScore').html(amount);
 
   if (amount == targetNumber) {
     win();
@@ -57,10 +63,11 @@ $('#Crystal1').on('click', function() {
   }
 });
 
-$('#Crystal2').on('click', function() {
+$('#Crystal2').click(function() {
   amount = amount + Crystal2;
 
-  $('#currentScore').text(amount);
+
+  $('#currentScore').html(amount);
 
   if (amount == targetNumber) {
     win();
@@ -69,10 +76,11 @@ $('#Crystal2').on('click', function() {
   }
 });
 
-$('#Crystal3').on('click', function() {
+$('#Crystal3').click(function() {
   amount = amount + Crystal3;
 
-  $('#currentScore').text(amount);
+
+  $('#currentScore').html(amount);
 
   if (amount == targetNumber) {
     win();
@@ -81,10 +89,11 @@ $('#Crystal3').on('click', function() {
   }
 });
 
-$('#Crystal4').on('click', function() {
+$('#Crystal4').click(function() {
   amount = amount + Crystal4;
 
-  $('#currentScore').text(amount);
+
+  $('#currentScore').html(amount);
 
   if (amount == targetNumber) {
     win();
